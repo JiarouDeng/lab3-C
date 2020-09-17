@@ -18,7 +18,6 @@ int main(void){
  double sum1 = sum_n(c);
  printf("sum is %f\n",sum1);
  char*f = readline("Enter a string:");
- int d = atof(f);
  print_n(f,c);
 }
 int sum_n(int n){
