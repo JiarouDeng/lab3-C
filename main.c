@@ -16,7 +16,7 @@ int main(void){
   char*n = readline("Enter an int: ");
   int c = atof(n);
   int sum1 = sum_n(c);
-  printf("sum is %d\n",sum1);
+  printf("sum is %d.\n",sum1);
   char*f = readline("Enter a string: ");
   print_n(f,c);
 }
