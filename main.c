@@ -22,7 +22,7 @@ int main(void){
 }
 int sum_n(int n){
   if (n > 0){
-    return n+sum_n(int n);
+    return n+sum_n(n-1);
     }
   else{
     return n;
